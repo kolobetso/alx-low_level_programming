@@ -20,9 +20,8 @@ int main(void)
 
 				if (tens != '8' || ones != '9') /*print commas*/
 				{
-																												putchar(',');
-																												putchar(' ');
-																											}
+																												putchar(',');																						 putchar(' ');
+				}
 			}
 		}
 		putchar('\n');
