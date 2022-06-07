@@ -6,11 +6,13 @@
  *  Return: last digit of number
  */
 
-int print_last_digit(int r)
+int print_last_digit(int n)
 {
-	if (r < 0)
-		r*= -1;
-	_putchar('0' + (r % 10));
+	if (n < 0)
+		n *= -1;
 
-	return (r % 10);
+
+	_putchar( '0' + (n % 10));
+
+	return (n % 10);
 }
