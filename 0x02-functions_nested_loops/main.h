@@ -43,6 +43,6 @@ int _abs(int);
  * printing the last digit
  */
 
-int print_last_digit(int);
+int print_last_digit(int INT_MAX);
 
 #endif
