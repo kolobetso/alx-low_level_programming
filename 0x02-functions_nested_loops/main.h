@@ -42,6 +42,7 @@ int _abs(int);
 /**
  * printing the last digit
  */
+
 int print_last_digit(int);
 
 #endif
