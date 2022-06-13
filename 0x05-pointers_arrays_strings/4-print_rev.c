@@ -6,7 +6,7 @@
  * Return: Lenght of string
  */
 
-int _strlen(char *s)
+void print_rev(char *s)
 {
 	int len = 0;
 	int i;
