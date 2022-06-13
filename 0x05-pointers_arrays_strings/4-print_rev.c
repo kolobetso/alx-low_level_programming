@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_rev - prints a string, in reverse, followed by a new line
+ * print_rev - prints a string, in reverse, followed by a new line
  * @s: String input
  *
  * Return: Lenght of string
@@ -14,7 +14,7 @@ void print_rev(char *s)
 	/* iterate to find length of string and point to last character */
 	while (*s != '\0')
 	{
-		len ++;
+		len++;
 		++s;
 	}
 
