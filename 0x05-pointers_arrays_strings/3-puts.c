@@ -1,10 +1,10 @@
 #include "main.h"
-
 /**
-* _putchar - puts character to standard output
-* @c: character to put to standard output
-* return void
-*/
+ * _puts - prints a string, followed by a new line, to stdout
+ * @s: String input
+ *
+ * Return: void
+ */
 
 void _puts(char *s)
 {
