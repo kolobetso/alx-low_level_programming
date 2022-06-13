@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _putchar - puts character to standard output
+ *_putchar - puts character to standard output
  * @c: character to put to standard output
  */
 
