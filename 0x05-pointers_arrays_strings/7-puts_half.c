@@ -38,7 +38,6 @@ void puts_half(char *s)
 	{
 		n = (lenght - 1) / 2;
 	}
-	
 	while (s[n])
 	{
 		_putchar(s[n]);
