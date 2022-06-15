@@ -1,4 +1,4 @@
-#include "main .h"
+#include "main.h"
 
 /**
  * cap_string - capitalize first letter of each word
@@ -6,7 +6,7 @@
  * Return: string
  */
 
-char *cap_string(char *S)
+char *cap_string(char *s)
 {
 	int i = 0;
 
