@@ -16,13 +16,13 @@ char *_strcat(char *dest, char *src)
 	while (dest[i] != '\0') /*i is index of null terminator*/
 		i++;
 
-	while (src[j] != src[n]) /*append replacing null terminator*/
+	while (src[j] != '\0') /*append replacing null terminator*/
 	{
 		dest[i] = src[j];
 		i++;
 		j++;
 	}
-	dest[i] = '\0';
 
+	dest[i] = '\0';
 	return (dest);
 }
