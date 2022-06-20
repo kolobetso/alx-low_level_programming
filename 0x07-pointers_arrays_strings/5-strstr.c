@@ -2,7 +2,7 @@
 #define NULL 0
 
 /**
- * _strpbrk - return pointer to byte in s that matches a byte in accept
+ * _strstr - locate and return pointer to first occurence of substring
  * @s: string to search
  * @accept: target matches
  * Return: pointer to index of string at first occurence
@@ -32,7 +32,6 @@ char *_strstr(char *haystack, char *needle)
 				return (haystack + i);
 			}
 		}
-		
 		i++;
 	}
 	return (NULL);
