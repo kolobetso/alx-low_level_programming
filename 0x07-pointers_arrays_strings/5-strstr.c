@@ -3,9 +3,9 @@
 
 /**
  * _strstr - locate and return pointer to first occurence of substring
- * @s: string to search
- * @accept: target matches
- * Return: pointer to index of string at first occurence
+ * @haystack: string to search
+ * @needle: target substring to search for
+ * Return: pointer to index of string at first occurence of whole substring
  */
 
 char *_strstr(char *haystack, char *needle)
