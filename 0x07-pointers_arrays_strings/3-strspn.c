@@ -6,9 +6,10 @@
  * @accept: target matches
  * Return: number of bytes consecutively matched
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
-	int i = 0, int j;
+	int i = 0, j;
 	int matches = 0;
 
 	while (s[i] != '\0')
