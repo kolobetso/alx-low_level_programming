@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _find_square_root - find square root of n, starting from the smallest possible value, 0
+ * _find_square_root - find square root of n, starting from the smallest value, 0
  * @n: n
  * @root: test this root
  * Return: natural square root, or -1 if not natural root
  */
 
-int _find_square_root(int n , int root)
+int _find_square_root(int n ,int root)
 {
 
 	if (root * root > n)
