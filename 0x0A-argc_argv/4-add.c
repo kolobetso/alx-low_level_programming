@@ -47,9 +47,9 @@ int main(int argc, char *argv[])
 			printf("Error\n");
 			return (1);
 		}
+
 		i++;
 	}
 	printf("%d\n", sum);
-
 	return (0);
 }
