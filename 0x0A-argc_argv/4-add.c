@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h> 
+#include <stdio.h> /* printf */
+#include <stdlib.h> /* atoi */
+#include <stdbool.h> /* bool data type */
 
 /**
  * is_num - iterate through each argv to test if it's a number
@@ -32,12 +32,14 @@ int main(int argc, char *argv[])
 	int i = 1;
 	int sum = 0;
 
+	/* validate input */
 	if (argc == 1)
 	{
 		printf("0\n");
 		return (0);
 	}
 
+	/* check all arguments to add numbers */
 	while (i < argc)
 	{
 		if (is_num(argv[i]))
@@ -47,9 +49,9 @@ int main(int argc, char *argv[])
 			printf("Error\n");
 			return (1);
 		}
-
 		i++;
 	}
 	printf("%d\n", sum);
+
 	return (0);
 }
