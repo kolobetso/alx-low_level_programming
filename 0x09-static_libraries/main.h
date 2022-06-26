@@ -1,4 +1,4 @@
-#ifndef  MAIN_H
+#ifndef MAIN_H
 #define MAIN_N
 int _putchar(char c);
 int _islower(int c);
