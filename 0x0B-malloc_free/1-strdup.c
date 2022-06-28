@@ -18,7 +18,7 @@ char *_strdup(char *str)
 		return (NULL);
 
 	while (*(str + i))
-		i++,length++;
+		i++, length++;
 
 	length++;
 
@@ -27,7 +27,7 @@ char *_strdup(char *str)
 	if (double_str == NULL)
 		return (NULL);
 
-	for(i = 0; i < length; i++)
+	for (i = 0; i < length; i++)
 	{
 		*(double_str + i) = *(str + i);
 	}
