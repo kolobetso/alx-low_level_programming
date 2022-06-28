@@ -27,14 +27,24 @@ char *str_concat(char *s1, char *s2)
 	while(*(s2 + j))
 		len2++ , j++;
 
-	concat = malloc(sizeof(char) * (len + len2)); /*alloc memory*/
+	len2++;
 
-	for (i = 0; i < len; i++)
+	concat = malloc(sizeof(char) * (len + len2)); /*alloc memory*/
+	
+	if (concat == NULL) /* validate memory */
+		return (NULL);
+
+	i = 0, j = 0;
+
+	for(i = 0; i < len; i++)
 	{
-		for (j = 0; j < len2; j ++)
-		{
-			(*(concat + i) = *(s1 + i)) + (*(concat + i) = *(s2 + j));
-		}
+		*(concat + i) = *(s1 + i);
+	}
+
+	for(j = 0; j < len2; j++)
+	{
+		*(concat + i) + *(s2 + j)
+			i++
 	}
 
 	return (concat);
