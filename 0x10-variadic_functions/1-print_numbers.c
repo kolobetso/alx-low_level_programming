@@ -7,7 +7,6 @@
  * @separator: delimiter
  * @n: amount of arguments in list
  */
-
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list valist;
