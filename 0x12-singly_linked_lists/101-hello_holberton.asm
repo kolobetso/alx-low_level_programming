@@ -1,7 +1,3 @@
-
-section .data
-msg db "Hello, Holberton",10 ;10 is the ASCII code for a new line.
-
 SECTION .data
 msg:	db "Hello, Holberton", 0
 fmt:	db "%s", 10, 0
