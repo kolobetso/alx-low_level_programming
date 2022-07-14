@@ -1,5 +1,5 @@
 section .data
-msg db "Hello, Holberton",10 ;16 is the ASCII code for a new line
+msg db "Hello, Holberton",10 ;10 is the ASCII code for a new line.
 
 section .text
 global _start
