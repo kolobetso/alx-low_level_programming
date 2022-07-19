@@ -10,7 +10,7 @@ void free_listint2(listint_t **head)
 	listint_t *ptr;
 
 	if (head == NULL) /* account for no ptr */
-		return (NULL);
+		return;
 
 	while (*head != NULL) /* have ptr keep track of head node and free */
 	{
