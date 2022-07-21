@@ -17,11 +17,13 @@ unsigned int binary_to_uint(const char *b)
 	/* find string length */
 	while (b[len] != '\0')
 		len++;
+
 	len -= 1;
 
 	/* iterate string and if '1' then multiply by power of 2 */
 	/* get power of 2 via binary (e.g. 1<<2 = 100 in binary = 4) */
 	i = 0;
+
 	while (b[i])
 	{
 		if ((b[i] != '0') && (b[i] != '1'))
@@ -33,6 +35,5 @@ unsigned int binary_to_uint(const char *b)
 		i++;
 		len--;
 	}
-
 	return (sum);
 }
