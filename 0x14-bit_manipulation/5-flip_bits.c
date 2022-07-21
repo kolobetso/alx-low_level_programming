@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * flip_bits - determine how many bits to flip to get from one num to another
@@ -18,7 +18,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	do {
 		diff_bits += (difference & 1);
 		difference >>= 1;
-	} while 
+	} while
 		(difference > 0);
 
 	return (diff_bits);
