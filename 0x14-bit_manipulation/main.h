@@ -4,7 +4,8 @@
 #include <stdlib.h> /* NULL */
 
 /*Assisting function*/
-int _putchar(char c);
 
+int _putchar(char c);
 unsigned int binary_to_uint(const char *b);
+
 #endif
