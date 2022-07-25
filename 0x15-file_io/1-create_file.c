@@ -5,6 +5,7 @@
  * @str: string
  * Return: length
  */
+
 int _strlen(char *str)
 {
 	int len;
@@ -22,6 +23,7 @@ int _strlen(char *str)
  * @text_content: writes this content into file
  * Return: 1 on success, -1 on error
  */
+
 int create_file(const char *filename, char *text_content)
 {
 	int fd;
